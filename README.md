@@ -18,6 +18,6 @@ Link to mosquitto from another container:
 
 ### Build local images
 
-    # git clone https://github.com/sourceperl/docker.mosquitto.git
-    # cd docker.mosquitto
-    # docker build -t sourceperl/mosquitto .
+    git clone https://github.com/sourceperl/docker.mosquitto.git
+    cd docker.mosquitto
+    docker build -t sourceperl/mosquitto .
